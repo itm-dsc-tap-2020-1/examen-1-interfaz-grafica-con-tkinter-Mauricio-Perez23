@@ -15,6 +15,17 @@ def califica():
         cal = cal +10
     if rw2.get() == 2:
         cal = cal + 10
+    if c1.get() and c4.get():
+        if c2.get() or c3.get():
+            print("Mala respuesta")
+        else:
+            cal=cal+20
+    else:
+        if c2.get() or c3.get():
+            print("mala respuesta")
+        else: 
+            if c1.get() or c4.get():
+                cal= cal + 10
     
     im=tk.Tk()
     im.title("---> CALIFICACION <---")
