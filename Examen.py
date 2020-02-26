@@ -9,7 +9,7 @@ def califica():
     cal = 0
     if res1.get() == "-10X+Y":
         cal=cal+10
-    if res2 == "PITAGORAS":
+    if res2.get() == "PITAGORAS":
         cal = cal +10
     if r1.get() == 1:
         cal = cal +10
